@@ -184,7 +184,7 @@ a .pcard-title {
 }
 
 .two-list-items a {
-  color: #737373;
+  color: #A09B91;
 }
 
 .two-list-icon {
@@ -207,7 +207,7 @@ a .pcard-title {
 }
 
 .two-list-items:hover a {
-  color: #444444;
+  color: #C9C3B8;
 }
 
 /* Spacing
@@ -452,8 +452,8 @@ h3 { font-size: 3.2rem; line-height: 1.5;  letter-spacing: -.05rem;   font-weigh
 h4 { font-size: 1.9rem; line-height: 1.5; letter-spacing: -.05rem;   font-weight: 450;}
 h5 { font-size: 1.9rem; line-height: 1.5;  letter-spacing: -.02rem;   font-weight: 450;}
 h6 { font-size: 1.4rem; line-height: 1.5;  letter-spacing: 0;   font-weight: 450;}
-p, p li {font-size: 2rem; line-height: 1.55; letter-spacing: -0.03rem; font-weight: 450; color: #C9C3B8;}
-li {font-size: 2rem; line-height: 1.55; letter-spacing: -0.06em; font-weight: 450;}
+p, p li {font-size: 1.8rem; line-height: 1.55; letter-spacing: -0.03rem; font-weight: 450; color: #C9C3B8;}
+li {font-size: 1.8rem; line-height: 1.55; letter-spacing: -0.02em; font-weight: 450;}
 .header-support { font-size: 1.9rem; line-height: 1.55;  letter-spacing: -.06rem; font-weight: 450;}
 .nav-item { font-size: 1.9rem; line-height: 1.55;  letter-spacing: -.06rem; font-weight: 450;}
 .h1-serif { font-size: 5.6rem; line-height: 0;  letter-spacing: -.4rem; font-weight: 450;}
@@ -517,7 +517,7 @@ p:first-child {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #737373;
+  color: #C9C3B8;
   text-decoration: none;
   transition: all 0.15s;
 }
