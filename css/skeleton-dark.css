@@ -64,6 +64,7 @@ footer {
 
 header {
   text-align: center;
+  width: 95%;
   max-width: 800px;
   margin: 0 auto;
   margin-top: 64px;
@@ -431,10 +432,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #B9AD97;
+  color: #E2E2E2;
+  background: #847B6C;
 }
 
 ::selection {
+  color: #E2E2E2;
   background: #B9AD97;
 }
 
@@ -446,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1rem;
   color: #F3F2EF;}
-h1 { font-size: 5.2rem; line-height: 1.05;  letter-spacing: -.015rem; font-weight: 450; font-family: 'FHOscar', 'Inter', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, serif;}
+h1 { font-size: 4.8rem; line-height: 1.05;  letter-spacing: -.015rem; font-weight: 450; font-family: 'FHOscar', 'Inter', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, serif;}
 h2 { font-size: 3.6rem; line-height: 1.2; letter-spacing: 0rem; font-weight: 450; font-family: 'FHOscar', 'Inter', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, serif;}
 h3 { font-size: 3.2rem; line-height: 1.5;  letter-spacing: -.05rem;   font-weight: 450;}
 h4 { font-size: 1.9rem; line-height: 1.5; letter-spacing: -.05rem;   font-weight: 450;}
@@ -529,7 +532,7 @@ a:hover {
 
 p a {
   font-weight: inherit;
-  color: #C9C3B8;
+  color: #B9B3A9;
   border-bottom: solid 1px #55534E;
   padding-bottom: 1px;
 }
@@ -908,6 +911,7 @@ there.
 /* Larger than desktop */
 @media (min-width: 1000px) {
   header {
+    width: 80%;
     margin-top: 160px;
     margin-bottom: 236px;
   }
