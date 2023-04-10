@@ -346,7 +346,7 @@ a .pcard-title {
 
 .main {
   width: calc(100% - 32);
-  margin: 16px 16px;
+  margin: 12px 20px;
 }
 
 .main-study {
@@ -906,6 +906,13 @@ there.
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
+
+  .main {
+    width: calc(100% - 32);
+    margin: 16px 20px;
+  }
+
+
   header {
     height: auto;
     width: 80%;
