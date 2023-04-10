@@ -658,23 +658,7 @@ nav {
 button,
 input[type="submit"],
 input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  height: 44px;
-  color: #2F2F2F;
-  text-align: center;
-  font-size: 1.6rem;
-  font-weight: 480;
-  line-height: 38px;
-  letter-spacing: -.03rem;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: #DDDDDD;
-  border-radius: 100px;
-  cursor: pointer;
-  border: none;
-  padding: 0px 16px;
-  box-sizing: border-box; }
+input[type="button"] {}
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -684,17 +668,12 @@ input[type="button"]:hover,
 button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: #F0F0F0;
-  background-color: #805AEC;
-  transition: all 0.2s;}
+input[type="button"]:focus {}
 .button.button-primary,
 button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0; }
+input[type="button"].button-primary {}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -705,8 +684,6 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
   }
 
   .button:disabled,
@@ -718,10 +695,7 @@ input[type="button"].button-primary:focus {
   button:disabled,
   input[type="submit"]:disabled,
   input[type="reset"]:disabled,
-  input[type="button"]:focus {
-    color: #6C6C6C;
-    transition: all 0.2s;
-    cursor: default;}
+  input[type="button"]:focus {}
 
 
 /* Forms
@@ -734,14 +708,7 @@ input[type="tel"],
 input[type="url"],
 input[type="password"],
 textarea,
-select {
-  height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
-  border: 1px solid #D1D1D1;
-  border-radius: 4px;
-  box-shadow: none;
-  box-sizing: border-box; }
+select {}
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -754,10 +721,7 @@ textarea {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none; }
-textarea {
-  min-height: 65px;
-  padding-top: 6px;
-  padding-bottom: 6px; }
+textarea {}
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
