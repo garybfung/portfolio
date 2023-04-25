@@ -127,8 +127,7 @@ header {
 .pcard-image {
   transition: all 200ms;
   border-radius: 1px;
-  border: solid 8px rgba(145, 105, 255, 0);
-  width: calc(100% - 20px) !important;
+  width: 100% !important;
 }
 
 a .pcard-title {
@@ -142,8 +141,6 @@ a .pcard-title {
 }
 
 .pcard-wrap:hover a .pcard-image {
-  border: solid 8px #8F8B82;
-  width: calc(100% - 20px) !important;
   transition: all 200ms;
 }
 
@@ -184,7 +181,7 @@ a .pcard-title {
 }
 
 .two-list-icon {
-  display: none !important;
+  display: none;
   height: 20px;
   width: 20px;
   border-radius: 2px;
@@ -207,19 +204,23 @@ a .pcard-title {
 }
 
 .hide-small-block {
-  display: none;
+  display: none !important;
+}
+
+.hide-all-block {
+  display: none !important;
 }
 
 .hide-small-inline {
-  display: none;
+  display: none !important;
 }
 
 .hide-big-block {
-  display: block;
+  display: block !important;
 }
 
 .hide-big-inline {
-  display: inline;
+  display: inline !important;
 }
 
 /* Spacing
@@ -873,20 +874,24 @@ there.
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 575px) {
+  .hide-all-block {
+    display: hide !important;
+  }
+
   .hide-small-block {
-    display: block;
+    display: block !important;
   }
 
   .hide-small-inline {
-    display: inline;
+    display: inline !important;
   }
 
   .hide-big-block {
-    display: none;
+    display: none !important;
   }
 
   .hide-big-inline {
-    display: none;
+    display: none !important;
   }
 
   .two-list-icon {
