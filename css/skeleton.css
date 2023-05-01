@@ -762,8 +762,9 @@ label > .label-body {
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
-  margin-left: 8px;
+  margin-left: 4px;
   list-style: disc inside;
+  list-style-type: "✴  ";
   font-weight: 425;
   letter-spacing: -.02rem;
   margin-top: 0;
