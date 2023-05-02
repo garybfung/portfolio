@@ -488,7 +488,7 @@ h5 { font-size: 1.9rem; line-height: 1.5;  letter-spacing: -.02rem;   font-weigh
 h6 { font-size: 1.4rem; line-height: 1.5;  letter-spacing: 0;   font-weight: 425;}
 p, p li {font-size: 1.8rem; line-height: 1.55; letter-spacing: -0.04rem; font-weight: 425; color: #434343;}
 li {font-size: 1.8rem; line-height: 1.55; letter-spacing: -0.04em; font-weight: 425;}
-.header-support { font-size: 2.2rem; line-height: 1.55;  letter-spacing: -.02rem; font-weight: 425;}
+.header-support { font-size: 1.8rem; line-height: 1.55;  letter-spacing: -.04rem; font-weight: 425;}
 .nav-item { font-size: 1.8rem; line-height: 1.55;  letter-spacing: -.05rem; font-weight: 425;}
 .h1-serif { font-size: 5.6rem; line-height: 0;  letter-spacing: -.4rem; font-weight: 425;}
 .label { font-size: 1.9rem;  font-weight: 425; letter-spacing: -.08rem;}
@@ -516,6 +516,7 @@ p:first-child {
   h6 { font-size: 1.4rem; line-height: 1.5;  letter-spacing: 0;   font-weight: 425;}
   p, p li {font-size: 2.0rem; line-height: 1.55; letter-spacing: -0.03rem; font-weight: 425; color: #434343;}
   li {font-size: 2.0rem; line-height: 1.55; letter-spacing: -.06rem; font-weight: 425;}
+  .header-support { font-size: 2.2rem; line-height: 1.55;  letter-spacing: -.05rem; font-weight: 425;}
   .nav-item { font-size: 2.0rem; line-height: 1.55;  letter-spacing: -.06rem; font-weight: 425;}
   .h1-serif { font-size: 8.2rem; line-height: 0;  letter-spacing: -.45rem; font-weight: 425;}
   .label { font-size: 1.9rem;  font-weight: 425; letter-spacing: -.08rem;}
