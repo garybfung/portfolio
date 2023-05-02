@@ -764,7 +764,7 @@ label > .label-body {
 ul {
   margin-left: 4px;
   list-style: disc inside;
-  list-style-type: "✴  ";
+  list-style-type: "✴ ";
   font-weight: 425;
   letter-spacing: -.02rem;
   margin-top: 0;
