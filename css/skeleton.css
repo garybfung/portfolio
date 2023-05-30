@@ -1082,7 +1082,12 @@ ul,
 ol,
 form {
   margin-left: 0;
-  margin-bottom: 0rem; }
+  margin-bottom: 0rem;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0em;
+  margin-inline-end: 0em;}
+
 
 
 /* Utilities
