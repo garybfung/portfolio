@@ -51,6 +51,9 @@ video {
   width: 100%;
 }
 
+.outline {
+  border: solid 2px #DADADA;
+}
 /* Layout
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .profile-image {
