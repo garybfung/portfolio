@@ -170,7 +170,7 @@ header {
 }
 
 .pcard-imagewrap {
-  height: 200px;
+  height: 42vw;
   overflow: hidden;
   width: 100%;
   vertical-align: middle;
@@ -1194,11 +1194,6 @@ there.
     display: none !important;
   }
 
-  .pcard-imagewrap {
-    display: inline-block;
-    overflow: hidden;
-    width: 100%;
-  }
 }
 
 /* Larger than tablet */
@@ -1416,7 +1411,7 @@ there.
   }
 
   .pcard-imagewrap {
-    height: 700px;
+    height: 42vw;
     display: inline-block;
     overflow: hidden;
   }
