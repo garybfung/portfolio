@@ -18,52 +18,51 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;1000&display=swap" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 </head>
 <body>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({duration: 300});
-  </script>
-
   <div class="main" id="wrapper">
 
-    <nav class="space-xl" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="0" data-aos-duration="600">
+    <nav data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="0" data-aos-duration="1000">
       <div class="nav-name">
-        <span><a class="nav-item" href="../index.html"><-- Back home</a></span>
+        <img class="site-logo selected" src="../images/gary-logo.svg" alt="">
+        <span><a class="color-black nav-item selected" href="../index.html">Gary Fung</a></span>
       </div>
-      <div class="nav-about">
+      <div class="nav-case">
+        <img class="site-logo" src="../images/arrow-right.svg" alt="">
+        <span><a class="color-black nav-item" href="../index.html">Uniqlo</a></span>
       </div>
     </nav>
 
-    <header class="header-about" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="120" data-aos-duration="1000">
-      <h1>Building Uniqlo's design system for scalable and sustainable growth</h1>
+    <header class="header-case" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <h2 class="header-text remove-bottom-margin">Building Uniqlo's design system for scalable and sustainable growth.</h2>
     </header>
 
-    <img src="../images/landing/hero-uniqlo.png" alt="map of the allocated time for a general production person">
+    <img data-aos="fade-up" data-aos-easing="ease-out" data-aos-delay="1000" data-aos-duration="800" data-aos-offset="-100" src="../images/landing/hero-uniqlo.png" alt="map of the allocated time for a general production person">
 
   </div>
 
-  <div class="main">
-    <div class="content-area content-ch-large">
-      <p class="p-large">From January to November 2020, I worked within a crossfunctional team to design and build a design system for Uniqlo. My main responsibilities included designing and documenting components.</p>
-      <p class="p-large  space-xl">The design system consisted of a component library, component documentation and a design system site that included guidelines about components and design patterns.</p>
+    <div class="main add-hr" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <div class="content-area">
+        <h3>Role & Responsibilities</h3>
+        <p class="">From January to November 2020, I worked within a crossfunctional team to design and build a design system for Uniqlo. My main responsibilities included designing components on both design and development sides, presenting to clients and documenting component usage guidelines.</p>
+      </div>
     </div>
-  </div>
 
-  <div class="section-white">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
     <div class="content-area">
       <h3>Why a design system?</h3>
       <p class="">For large organizations, design systems are the start of a digital transformation. A design system provides better user experience, cross-team workflow and bottom-up empowerment.</p>
@@ -71,49 +70,61 @@
     </div>
   </div>
 
-    <div class="section-white">
-        <img src="../images/uniqlo/components.png" alt="images">
-        <div class="image-grid-two">
-          <img class="two-grid-item" src="../images/uniqlo/specs.png" alt="images">
-          <img class="two-grid-item" src="../images/uniqlo/states.png" alt="images">
-        </div>
+  <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img src="../images/uniqlo/components.png" alt="images">
+    <div class="image-grid-two">
+      <img class="two-grid-item" src="../images/uniqlo/specs.png" alt="images">
+      <img class="two-grid-item" src="../images/uniqlo/states.png" alt="images">
     </div>
+  </div>
 
-    <div class="section-white">
-      <div class="content-area">
-        <h3>Design system structure and quality</h3>
-        <p class="space-l">Using Brad Frost’s Atomic Design as a baseline, I designed components which includes interaction states, accessibility standards and component names so they could be as easily adaptable. We worked closely with developers to assure quality and flexibility between these components.</p>
-        <img class="space-l" src="../images/uniqlo/system.svg" alt="images">
+  <div class="section-white">
+    <div class="content-area">
+      <h3>Design system structure and quality</h3>
+      <p class="space-l">Using Brad Frost’s Atomic Design as a baseline, I designed components which includes interaction states, accessibility standards and component names so they could be as easily adaptable. We worked closely with developers to assure quality and flexibility between these components.</p>
+      <img src="../images/uniqlo/system.svg" alt="images">
+    </div>
+  </div>
+
+  <div class="section-white">
+    <div class="content-area">
+      <h3>The most memorable moment</h3>
+      <p>After designing over 20 components, I was tasked with the Header and Navigation components, which were considered complex components by the client. These components were designed in consideration for Uniqlo’s CMS platform. The client and our team collaborated on keyboard accessibility, sidebar positioning and content below the fold.</p>
+    </div>
+  </div>
+
+  <div class="section-img">
+    <img src="../images/uniqlo/navigation.png" alt="images">
+  </div>
+
+  <div class="section-white">
+    <div class="content-area">
+      <h3>Learnings</h3>
+      <p class="space-xs">A good design system is more than consistency and alignment of the interface. The quality of a design system can reduce the stress for the everyday work that designers and developers do. It includes clear documentation, refining a working governance model and long-term house keeping.</p>
+      <h3 class="blockquote">A design system is everything from a Figma component to how teams are structured.</h3>
+      <p class="">You can view the design system on <a href="https://www.uniqlo.com/jp/ja/">Japan’s Uniqlo website</a>.</p>
+    </div>
+  </div>
+
+<!--  <video class="space-xs outline" width="100%" autoplay loop muted>
+    <source src="../images/calico/BOM.mp4 " type="video/mp4">
+  </video>-->
+
+  <div class="main">
+    <footer class="footer-casestudy">
+      <div class="nav-name hide-small-block">
+        <span class="label"></span>
       </div>
-    </div>
-
-    <div class="section-white">
-      <div class="content-area">
-        <h3>The most memorable moment</h3>
-        <p class="space-m">After designing over 20 components, I was tasked with the Header and Navigation components, which were considered complex components by the client. These components were designed in consideration for Uniqlo’s CMS platform. The client and our team collaborated on keyboard accessibility, sidebar positioning and content below the fold.</p>
+      <div class="nav-case">
+        <span class="label"><a class="purple-hover" href="../index.html"><span class="sans"><-</span> Back home</span>
       </div>
-      <img src="../images/uniqlo/navigation.png" alt="images">
-    </div>
+    </footer>
+  </div>
 
-    <div class="section-white">
-      <div class="content-area">
-        <h3>Learnings</h3>
-        <p class="">A good design system is more than consistency and alignment of the interface. The quality of a design system can reduce the stress for the everyday work that designers and developers do. It includes clear documentation, refining a working governance model and long-term house keeping.</p>
-        <p class="p-large space-m">A design system is everything from a Figma component to how teams are structured.</p>
-        <p class="">You can view the design system on <a href="https://www.uniqlo.com/jp/ja/">Japan’s Uniqlo website</a>.</p>
-      </div>
-    </div>
-
-    <div class="main">
-      <footer class="footer-casestudy">
-        <div class="footer-left">
-          <span class="label"><a href="../index.html"><-- Back home</a></span>
-        </div>
-        <div class="footer-right">
-          <span class="label"><a href="calico.html">Next project --></a></span>
-        </div>
-      </footer>
-    </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

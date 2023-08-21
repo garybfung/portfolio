@@ -18,54 +18,58 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;1000&display=swap" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
-
+</head>
 <body>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({duration: 300});
-  </script>
 
   <div class="main" id="wrapper">
 
-    <nav class="space-xl" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="0" data-aos-duration="600">
+    <nav data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="0" data-aos-duration="1000">
       <div class="nav-name">
-        <span><a class="nav-item" href="../index.html"><-- Back home</a></span>
+        <img class="site-logo selected" src="../images/gary-logo.svg" alt="">
+        <span><a class="color-black nav-item selected" href="../index.html">Gary Fung</a></span>
       </div>
-      <div class="nav-about">
+      <div class="nav-case">
+        <img class="site-logo" src="../images/arrow-right.svg" alt="">
+        <span><a class="color-black nav-item" href="../index.html">Hellohire</a></span>
       </div>
     </nav>
 
-    <header class="header-about" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="120" data-aos-duration="1000">
-      <h1>Hellohire connects people and businesses through virtual career fairs</h1>
+    <header class="header-case" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <h2 class="header-text remove-bottom-margin">Hellohire enables HR teams to have thoughtful conversations with more candidates by easily setting up events such as career fairs or drop-in preliminary interviews.</h2>
     </header>
 
-    <img src="../images/landing/hero-showfloor.png" alt="map of the allocated time for a general production person">
+    <img data-aos="fade-up" data-aos-easing="ease-out" data-aos-delay="1000" data-aos-duration="800" data-aos-offset="-100" src="../images/landing/hero-showfloor.png" alt="map of the allocated time for a general production person">
 
   </div>
 
-  <div class="main">
-    <div class="content-area content-ch-large">
-      <p class="p-large">For 6 months, I worked as the sole product designer for Hellohire, where I improved the career fair experience, delivered the event maker, and helped define the product vision. When I joined, Hellohire had an initial product focused on delivering virtual events.</p>
-      <p class="p-large  space-xl">Hellohire enables HR teams to have thoughtful conversations with more candidates by easily setting up events such as career fairs or drop-in preliminary interviews.</p>
+    <div class="main add-hr" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <div class="content-area">
+        <h3>Overview</h3>
+        <p class="space-m">For 6 months, I worked as the sole product designer for Hellohire, where I improved the career fair experience, delivered the event maker, and helped define the product vision. When I joined, Hellohire had an initial product focused on delivering virtual events.</p>
+        <h3 class="space-xs">Key Highlights*</h3>
+        <ul>
+          <li>Designed multiple north star prototypes to guide vision</li>
+          <li>Improved on existing product to host events with 100+ people</li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <div class="section-white">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
     <div class="content-area">
-      <h3>Focusing on a market</h3>
+      <h3>Target market & User</h3>
       <p class="space-xs">We chose a target market so we could iterate and test the product. From running events in underserved roles to popular roles, we quickly learned that the problem with underserved roles was that they didn't get enough applicants. We believed that improving engagement for these roles was difficult and perhaps a goal for the future. Two markets that we felt were large enough, tech-friendly, and people-focused were:</p>
       <ul class="space-l">
         <li><span class="bold">Customer service Jobs (ex. Starbucks barista, Ski Resort Lift Operators):</span> As Covid lockdowns were ending, there would be a lot of roles to be filled in Malls, Shops and resturaunts. Hellohire could help them reduce scheduling efforts, Assessing candidates, etc…</li>
@@ -75,121 +79,150 @@
     </div>
   </div>
 
-  <div class="section-beige">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
       <h3>Problems and opportunities</h3>
-      <p class="content-ch-large space-l">We used before, during, and after to organize opportunities and pain points. Some overarching problems were gathering information before an event, social norms of talking, and user experience issues.</p>
+      <p>We used before, during, and after to organize opportunities and pain points. Some overarching problems were gathering information before an event, social norms of talking, and user experience issues.</p>
     </div>
-    <figure class="space-l">
-      <img src="../images/showfloor/opportunitiespains.svg" alt="images">
-      <figcaption></figcaption>
-    </figure>
-    <div class="content-area">
-      <h3>Mapping out the user journey</h3>
-      <p class="space-xs content-ch-large">The purpose of the user journey was to clearly identify the aha moment and core action so we can get users to feel product value as soon as possible. The faster an attendee or recruiter got into a call; the more value we create.</p>
-    </div>
-    <img src="../images/showfloor/journey.svg" alt="images">
   </div>
 
-  <div class="section-white">
+  <div class="section-img">
+    <img src="../images/showfloor/opportunitiespains.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <div class="content-area">
+      <h3>Mapping out the user journey</h3>
+      <p>The purpose of the user journey was to clearly identify the aha moment and core action so we can get users to feel product value as soon as possible. The faster an attendee or recruiter got into a call; the more value we create.</p>
+    </div>
+  </div>
+
+  <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img src="../images/showfloor/journey.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
       <h3>Setting product goals</h3>
-      <p class="space-xs">Building product principles was what I ultimately wanted to do. We built goals for the next prototype that we could eventually translate into product principles. These are the four goals we set for the team to solve next.</p>
-      <ul class="space-xl">
-        <li>Easy to setup events.</li>
-        <li>Events need to feel fun and rewarding</li>
-        <li>Events should be easy to find out about and share.</li>
-        <li>Early product needs to have room to iterate</li>
-      </ul>
+      <p>We built goals for the next prototype that we could eventually translate into product principles. These are the four goals we set for the team to solve next.</p>
     </div>
+  </div>
+
+  <div class="section-img add-hr" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img src="../images/showfloor/goals.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
       <h3>Re-thinking the product experience</h3>
       <p>There were many changes that needed to be made so we decided to prototype the next step for the product. I led the design of only the consumer side using a ‘content management system’ approach where people would be able to update and add content.</p>
     </div>
-
   </div>
 
-  <div class="section-white">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
       <h3>Website explorations</h3>
       <p class="">All events begin with an event posting and a sign-up process. Initially, we used facebook groups and social media as the start of the funnel.</p>
       <p class="space-m">The purpose was to eventually test building a growth loop where the more events we had, the more successful job applicants and companies will be at finding matches.</p>
     </div>
+  </div>
+
+  <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <img class="space-xs" src="../images/showfloor/home-page.png" alt="images">
     <img src="../images/showfloor/event-page.png" alt="images">
   </div>
 
-  <div class="section-white">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
       <h3>Branding and content for events</h3>
       <p class="">Every event is different. From companies who want to create a lightweight event, larger scale events or hybrid events. By designing for lightweight events, companies can get benefit from the product value as soon as possible. A product like Hellohire needs to have some type of traction before it can scale to a larger company.</p>
-      <p class="space-m">The old product required pdfs as content. The assumption was that everyone can create a slideshow and export it as a pdf. I created 6 base sections where it can be re-used like a content management system. We can maybe create event templates or change the order of sections to improve product metrics.</p>
+      <p class="">The old product required pdfs as content. The assumption was that everyone can create a slideshow and export it as a pdf. I created 6 base sections where it can be re-used like a content management system. We can maybe create event templates or change the order of sections to improve product metrics.</p>
     </div>
-    <img class="space-xs"  src="../images/showfloor/landingexperience.svg" alt="images">
-    <video class="space-xs" width="100%" autoplay loop muted>
-      <source src="../images/showfloor/prototype-2.mp4" type="video/mp4">
-    </video>
-    <video width="100%" autoplay loop muted>
-      <source src="../images/showfloor/prototype-3.mp4" type="video/mp4">
-    </video>
   </div>
 
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Different types of calls</h3>
-      <p class="space-xs">During a Hellohire event, there are 3 types of live conversations you can join:</p>
-      <ul>
-        <li><span class="bold content-ch-large">The stage: </span> Companies can host virtual talks, information sessions or stream their actual stage of this were a hybrid event.</li>
-        <li><span class="bold content-ch-large">Group chats: </span> This can be used for group interviews, portfolio reviews or activities. You can have over 10 people in this call at once.</li>
-        <li><span class="bold content-ch-large">1:1 chats: </span> host interviews or any one on one conversation.</li>
-      </ul>
-      <p class="space-m content-ch-large">The new call experience is less distracting and has a larger video area.</p>
-    </div>
-    <img class="space-xs" src="../images/showfloor/callexperience.svg" alt="images">
-    <video width="100%" autoplay loop muted>
-      <source src="../images/showfloor/prototype-1.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Making the events feel lively with chat</h3>
-      <p class="">In the old system, Hellohire used pop up notifications to organize events such as stage notifications, event delays and event closing.</p>
-      <p class="space-m">We wanted the event to feel more lively and contextual so we created an event chat and private chats. Companies and attendees can chat with each other and communicate the event. The private chat in calls was used to solve any bugs or lags if anything were to happen in a conversation.</p>
-    </div>
-    <img class="space-xs" src="../images/showfloor/chat.png" alt="images">
-      <video width="100%" autoplay loop muted>
-        <source src="../images/showfloor/prototype-4.mp4" type="video/mp4">
+    <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+      <img class="space-xs"  src="../images/showfloor/landingexperience.svg" alt="images">
+      <video class="space-xs" width="100%" autoplay loop muted>
+        <source src="../images/showfloor/prototype-2.mp4" type="video/mp4">
       </video>
-  </div>
-
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Future state exploration</h3>
-      <p class="">Part of this new exploration was a wait list and multi department events.</p>
-      <p class="space-m">For learned that many people spent most of their time waiting to join a private call. We explored a wait list to join a call and scheduling a time slot before an event.</p>
+      <video width="100%" autoplay loop muted>
+        <source src="../images/showfloor/prototype-3.mp4" type="video/mp4">
+      </video>
     </div>
-    <img src="../images/showfloor/iterations.png" alt="images">
-  </div>
 
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Impact</h3>
-      <p class="">We hosted multiple events with over 100 people and helped people connect with employers. One of the interviewers mentioned the difference with people writing that they are passionate about versus showing how passionate they actually are when they are chatting.</p>
-      <p class="">The prototype was not shipped during my time there. However, it helped clarify the product direction for Hellohire.</p>
+    <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+      <div class="content-area">
+        <h3>Different types of calls</h3>
+        <p class="space-xs">During a Hellohire event, there are 3 types of live conversations you can join:</p>
+        <ul>
+          <li><span class="bold content-ch-large">The stage: </span> Companies can host virtual talks, information sessions or stream their actual stage of this were a hybrid event.</li>
+          <li><span class="bold content-ch-large">Group chats: </span> This can be used for group interviews, portfolio reviews or activities. You can have over 10 people in this call at once.</li>
+          <li><span class="bold content-ch-large">1:1 chats: </span> host interviews or any one on one conversation.</li>
+        </ul>
+      </div>
     </div>
-  </div>
+
+      <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <video width="100%" autoplay loop muted>
+          <source src="../images/showfloor/prototype-1.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <div class="content-area">
+          <h3>Making the events feel lively with chat</h3>
+          <p class="">In the old system, Hellohire used pop up notifications to organize events such as stage notifications, event delays and event closing.</p>
+          <p class="space-m">We wanted the event to feel more lively and contextual so we created an event chat and private chats. Companies and attendees can chat with each other and communicate the event. The private chat in calls was used to solve any bugs or lags if anything were to happen in a conversation.</p>
+        </div>
+      </div>
+
+        <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+          <img class="space-xs" src="../images/showfloor/chat.png" alt="images">
+            <video width="100%" autoplay loop muted>
+              <source src="../images/showfloor/prototype-4.mp4" type="video/mp4">
+            </video>
+          <span class="space-xs"></span>
+        </div>
+
+      <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <div class="content-area">
+          <h3>Future state exploration</h3>
+          <p class="">Part of this new exploration was a wait list and multi department events.</p>
+          <p class="space-m">For learned that many people spent most of their time waiting to join a private call. We explored a wait list to join a call and scheduling a time slot before an event.</p>
+        </div>
+      </div>
+
+      <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <img src="../images/showfloor/iterations.png" alt="images">
+      </div>
+
+      <div class="section-white">
+        <div class="content-area">
+          <h3>Impact</h3>
+          <p class="">We hosted multiple events with over 100 people and helped people connect with employers. One of the interviewers mentioned the difference with people writing that they are passionate about versus showing how passionate they actually are when they are chatting.</p>
+          <p class="">The prototype was not shipped during my time there. However, it helped clarify the product direction for Hellohire.</p>
+        </div>
+      </div>
+
+<!--  <video class="space-xs outline" width="100%" autoplay loop muted>
+    <source src="../images/calico/BOM.mp4 " type="video/mp4">
+  </video>-->
 
   <div class="main">
     <footer class="footer-casestudy">
-      <div class="footer-left">
-        <span class="label"><a href="../index.html"><-- Back home</a></span>
+      <div class="nav-name">
+        <span class="label"></span>
       </div>
-      <div class="footer-right">
-        <span class="label"><a href="uniqlo.html">Next project --></a></span>
+      <div class="nav-case">
+        <span class="label"><a class="purple-hover" href="../index.html"><span class="sans"><-</span> Back home</span>
       </div>
     </footer>
   </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -18,199 +18,180 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;1000&display=swap" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
 
 </head>
 <body>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({duration: 300});
-  </script>
-
   <div class="main" id="wrapper">
 
-    <nav class="space-xl" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="0" data-aos-duration="600">
+    <nav data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="0" data-aos-duration="1000">
       <div class="nav-name">
-        <span><a class="nav-item" href="../index.html"><-- Back home</a></span>
+        <img class="site-logo selected" src="../images/gary-logo.svg" alt="">
+        <span><a class="color-black nav-item selected" href="../index.html">Gary Fung</a></span>
       </div>
-      <div class="nav-about">
+      <div class="nav-case">
+        <img class="site-logo" src="../images/arrow-right.svg" alt="">
+        <span><a class="color-black nav-item" href="../index.html">Calico</a></span>
       </div>
     </nav>
 
-    <header class="header-about" data-aos="fade-in" data-aos-easing="ease-in-out" data-aos-delay="120" data-aos-duration="1000">
-      <h1>Calico is product management tool for fashion teams to collaborate with their suppliers.</h1>
+    <header class="header-case" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <h2 class="header-text remove-bottom-margin">Calico’s vision is to build a platform for scaling fashion brands, product teams scaling from 1-5 people, and overseas manufacturers to communicate on a single platform. Calico raised 2m, I helped define product vision and built their product from 0-1.</h2>
     </header>
 
-    <img src="../images/landing/hero-calico.png" alt="map of the allocated time for a general production person">
+    <img data-aos="fade-up" data-aos-easing="ease-out" data-aos-delay="1000" data-aos-duration="800" data-aos-offset="-100" src="../images/landing/hero-calico.png" alt="map of the allocated time for a general production person">
 
   </div>
 
-    <div class="main">
-      <div class="content-area content-ch-large">
-        <p class="p-large">Fashion companies ship seasonally, so effective back-and-forth communication with suppliers is critical. On a single platform, Calico is a PLM and ERP platform that helps brands and suppliers communicate product specs and manage production orders.</p>
-        <p class="p-large">I joined as the sole product designer where I helped define product strategy, setup design foundations and built the MVP from 0-1.</p>
-        <span class="space-l"></span>
+    <div class="main add-hr" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
+      <div class="content-area">
+        <h3>Role & Responsibilities</h3>
+        <p class="space-m">My day-to-day involved getting customer updates to sales/customer success, reading about the problem space, interviewing fashion company people, expanding the design system, designing new product flows, Design QA and iterating on the existing product. I also onboarded new employees about the market & product direction.</p>
+        <h3 class="space-xs">Key Highlights</h3>
+        <ul>
+          <li>Designed the product from 0-1</li>
+          <li>Learned a ton about supply chain and fashion</li>
+          <li>Worked closely with founder to determine product strategy</li>
+        </ul>
       </div>
     </div>
 
-  <div class="section-beige">
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000" data-aos-offset="-100">
     <div class="content-area">
-      <h3>A typical production process</h3>
-      <p class="space-xl">Most production processes will follow a <a href="https://www.shopify.com/ca/blog/product-development-process">process</a> where they will: design a concept, find a factory, create samples, produce their product then plan shipping logistics.</p>
-    </div>
-    <figure>
-      <img src="../images/calico/process.svg" alt="map of the allocated time for a general production person">
-    </figure>
-    <div class="content-area">
-      <h3>Market and target user</h3>
-      <p class="">Calico's target market were mid-sized fashion brands that were in search of their first plm/erp. Most PLM and ERP systems are sales-driven and up-sold through more configuration. However, many early-stage brands we spoke with were skeptical that product management tools would improve their business.</p>
-      <p class=" space-m">Product teams often find that entering and finding data is time-consuming. For example, we learned that forgetting to update product data can cost brands millions in production, depending on the size of the brand. This led us to realize that Calico should focus on product teams as product management tools should align teams. To ensure our product worked, we decided to focus on brands with around 3-5 people in a pivotal decision to hire another product developer or invest a plm/erp tool.</p>
-    </div>
-    <div class="content-area">
-      <p class="p-large">Product management software helps align teams so they can work their best.</p>
+      <h3>Problem Space</h3>
+      <p>Fashion brands often use existing patterns for product development, combining them with marketing and branding for scaling, but those prioritizing design, quality, or sustainability may require a platform to communicate product specs and track materials.</p>
+      <p class="space-s">There are many products in the fashion supply chain space from PLMs, ERPs to innovative solutions like 3d models and 3d printing. However, Fashion companies are missing out on having their specialized product management tool. It may seem like a simple solution and many tech companies are solving this for other industries; however, every industry shares documents with different levels of privacy, revisions and file-types. In fashion, you'll encounter these two main problems:</p>
     </div>
   </div>
 
-  <div class="section-white">
+  <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img src="../images/calico/two-problems.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
     <div class="content-area">
-      <h3>User & Market insights</h3>
-      <p class="space-s">In the first few months at Calico, as I conducted user interviews, facilitated product workshops, and synthesized secondary research, the team learned three key insights that guided the product and design direction:</p>
-      <div class="card space-xs">
-        <p class="title-support color-beige space-xxs">User insight #1</p>
-        <h4>Configurative software creates more problems.</h4>
-        <p class="color-grey remove-bottom-margin">Sales-led software are generally customized to fit existing workflows. Many brands, from our interviews, did not want to adopt workflow or product management software until they had to. This is because experienced product people have seen software like this create more confusion and lose companies revenue.</p>
+      <h3>Jobs to be done</h3>
+      <p>There are three themes of tasks that need to be accomplished. Both manufacturer and <a href="https://qr.ae/pylPqK">brand</a> need to complete these types of tasks to get a project completed. We used this to inform the product journey for Calico's product strategy and vision.</p>
+    </div>
+  </div>
+
+  <div class="section-img">
+    <img src="../images/calico/jobs-to-be-done.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <div class="content-area">
+      <h3>Actionable opportunities</h3>
+      <p>Through discovery calls, user interviews and market research, we learned about the market from big corporations to small businesses. We saw how different it was for small businesses to run their companies & how structured processes were for a enterprise company, like Aldo.</p>
+      <p>Most of the feedback we received when we talked to brands and manufacturers were about their relationship being difficult to manage. For example, irresponsive manufacturers due to many of them being overworked or uneducated fashion companies because they aren’t physically building products everyday.</p>
+    </div>
+  </div>
+
+  <div class="section-img add-hr" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img src="../images/calico/opportunities.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <div class="content-area">
+      <h3>Layout and userflows</h3>
+      <p class="">Most companies use email, messaging app and spreadsheets to communicate, while working at Calico. I used before, during and after framework to understand quickly what each piece of documentation or data is intended to do. For example, the bill of materials is used at multiple stages and in different ways, from planning materials for different colorways to calculating costs.</p>
+      <p class="">We talked to users and our sales team which had industry expertise, as I interviewed/chatting with multiple people. I learned that spreadsheets to fashion & most industries is like Figma to designers. Spreadsheets are seen as doing creative, impactful work for a lot of people. It was their way of becoming more visual whether its expressing business data, designing techpacks or anything visual. Ultimately, the product is the automate the need to create these spreadsheets manually.</p>
+    </div>
+  </div>
+
+  <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <img class="space-xs" src="../images/calico/userflow.svg" alt="map of the allocated time for a general production person">
+  </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <div class="content-area">
+      <p class="">I designed the product in terms of general layouts. As the product scales, we can use these as a base for adding new features and data. For example, the product page information is organized in three section. I added these page layouts as apart of the design system.</p>
+    </div>
+  </div>
+
+
+    <div class="section-img" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+      <img class="space-xs" src="../images/calico/page-layout.svg" alt="map of the allocated time for a general production person">
+      <img class="space-xs"   src="../images/calico/product-details.png" alt="map of the allocated time for a general production person">
+      <img class="space-xs" src="../images/calico/product-list.png" alt="map of the allocated time for a general production person">
+      <img src="../images/calico/images.png" alt="map of the allocated time for a general production person">
+    </div>
+
+  <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+    <div class="content-area">
+      <h3>Adding comments for product data</h3>
+      <p class="">The most difficult part about communication is formality. Depending on the brand and factory, they would need to establish how formal they are in this interaction. In most manufacturer’s perspective, there is no need to be formal because we need to get projects to move faster; if its good enough and the client will take it, we will make it. For Calico’s brands, they wanted control over the product and to build a product they were proud of.. they wanted to get samples and iterate through materials.</p>
+      <p class="">We designed Calico through comments because it would increase formality and comments have become a very common pattern. We used Flexport and Jira’s comments as inspiration when designing this.</p>
+    </div>
+  </div>
+
+    <div class="section-vid" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+      <video class="screen-video outline" width="100%" autoplay loop muted>
+          <source src="../images/calico/measurement.mp4 " type="video/mp4">
+        </video>
+      <span class="space-xs"></span>
+    </div>
+
+    <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+      <div class="content-area">
+        <h3>Building a material library</h3>
+        <p class="">The material library is a core part of what makes a PLM/ERP for fashion brands. They use this to keep track of their vetted textiles and components & build their products. The material library is directly linked to the bill of materials which represents colorways & the materials used for each variant.</p>
+        <p>Tables was a major differentiator so we spent time improving how efficient our tables were compared to other competitors. In Calico, we were able to build a bill of materials table that accurately represented spreadsheets made in the current industry & made data input more efficient compared to spreadsheets.</p>
       </div>
-      <div class="card space-xs">
-        <p class="title-support color-beige space-xxs">User insight #2</p>
-        <h4>Product teams want collaboration, not documentation.</h4>
-        <p class="color-grey remove-bottom-margin">The goal of product management software is to create alignment between teams and organizations. Many products are built for documentation, not collaboration. We added comments and file sharing because it is critical for product teams and suppliers to communicate and document on-going projects.</p>
+    </div>
+
+      <div class="section-vid" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <video class="screen-video outline" width="100%" autoplay loop muted>
+            <source src="../images/calico/BOM.mp4 " type="video/mp4">
+          </video>
+        <span class="space-xs"></span>
       </div>
-      <div class="card">
-        <p class="title-support color-beige space-xxs">User insight #3</p>
-        <h4>Automated inputs doesn't exist.</h4>
-        <p class="color-grey">Many users did not have the time to do everything perfectly when looking at people use the platform. Documentation can end up feeling endless.</p>
-        <p class="color-grey remove-bottom-margin">There were ways we can automate inputs such as taking mobile pictures and uploading them or providing pre-populated fields as often as possible.</p>
+
+      <div class="section-white" data-aos="fade-in" data-aos-easing="ease-out" data-aos-delay="200" data-aos-duration="1000">
+        <div class="content-area">
+          <h3 class="space-xs">Outcomes & Next steps</h3>
+          <p class="space-xs">We recieved a lot of positive feedback for the design of the product from early adopters. The product database was the core product and most used; however, there were ideas on how to build on top of this:</p>
+          <ul>
+            <li>Creating a textile/supplier library marketplace so brands have access to a library of quality materials sourced by Calico</li>
+            <li>Building a markup tool & camera feature so brands can document and share faster</li>
+            <li>For enterprise companies, building out costing features to track financials from materials, production and shipping like an erp.</li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </div>
-
-  <div class="section-green">
-      <span class="title-support color-lightgrey">Problem</span>
-      <p class=" p-large remove-top-margin space-m">Product teams need to communicate with factories to reduce development time for accurate designs.</p>
-  </div>
-
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Defining the product journey</h3>
-      <p class="">The largest problem in fashion production is collaborating with a supplier. Most of the communication is done through email and whatsapp, so documents and decisions get lost. Suppliers want a concise view of the project as they pass it to different teams to plan logistics. Fashion brands want to be able to iterate and track the project so they can have a clear go-to-market strategy and build great products.</p>
-      <p class="space-s">In the product workshops I facilitated, we decided which parts we wanted to improve and how that might affect the entire product development process. Calico sits between financial planning and shipping logistics.</p>
-    </div>
-    <figure class="space-m">
-      <img src="../images/calico/product-journey.svg" alt="map of the allocated time for a general production person">
-    </figure>
-    <div class="content-area">
-      <h3>The core product</h3>
-      <p class=" space-l">The core product is the product database, particuarly the <a href="https://www.optiproerp.com/blog/10-types-boms-explained/">Bill of materials</a>. A simple BOM table can be used for many accumulative documents in production such as costs breakdowns and material ordering checklists. These exportable spreadsheets help make future processes easier.</p>
-      <figure>
-        <img src="../images/calico/BOM.svg" alt="map of the allocated time for a general production person">
-      </figure>
-    </div>
-  </div>
-
-  <div class="section-green">
-      <span class="title-support color-lightgrey">Product Vision</span>
-      <p class="p-large remove-top-margin space-m">Empower product teams and suppliers to stay aligned and communicate effectively.</p>
-  </div>
-
-<!--
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Setting up the design system</h3>
-      <p class="">As the first designer, I setup the design system so it contained documented components with states and props and figma components. Engineers would create components as they develop the core flows to increase speed and efficiency. This meant that every-time there was a new layout or component, I documented the states and props as best as I could.</p>
-      <p class=" space-s">For the design language, many products look complex and difficult to use, so we focused on a simple and clean style—Allowing us to develop the brand while we scale.</p>
-    </div>
-    <figure>
-      <img src="../images/calico/design-system.png" alt="map of the allocated time for a general production person">
-    </figure>
-  </div>-->
 
 
-  <div class="section-white">
-    <div class="content-area">
-      <p class="color-grey space-m">*In this case study, I'll be showing the product database. This is Calico's core product that will be used throughout its product offerings.</p>
-      <h3>Creating the product database</h3>
-      <p class=" space-xs">The purpose of the product database is to house all the product specs and feedback, so brands can re-visit them in the future. We based the product database off of a <a href="https://www.bommestudio.com/blog/what-is-a-tech-pack#:~:text=A%20tech%20pack%20is%20a,re%20creating%20to%20your%20manufacturer.">techpack</a>. The techpack data was split the product data into two parts based off how frequently they will change:</p>
-      <ul class="space-m">
-        <li><span class="bold">Foundational details</span> as a single screen (Name of product, collection, variants, measurements, etc..)</li>
-        <li><span class="bold">Iterative</span> as different tabs (Initial sketches, CAD files, Materials, sample feedback, etc...)</li>
-      </ul>
-    </div>
-    <figure>
-      <img src="../images/calico/product-list.png" alt="map of the allocated time for a general production person">
-      <figcaption class="figcaption-center space-m">Product list where product developers can see all their products.</figcaption>
-    </figure>
-    <figure>
-      <img src="../images/calico/product-details.png" alt="map of the allocated time for a general production person">
-      <figcaption class="figcaption-center">Product details page</figcaption>
-    </figure>
-  </div>
 
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Commenting on a measurement table</h3>
-      <p class=" space-m">Brands and suppliers can make comments on existing files and tables. The comments can be linked to a specific part of the techpack so its easier to re-visit.</p>
-    </div>
-    <video class="space-xs outline" width="100%" autoplay loop muted>
-      <source src="../images/calico/measurement.mp4" type="video/mp4">
-    </video>
-  </div>
-
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Developing a bill of materials</h3>
-      <p class="">Bill of materials (BOM) table and the component library are directly connected. This way, brands can build their BOM sheets and also track new components. The BOMs can be exported into other functional spreadsheets that can be used to track material logistics for production to material costs sheets for budgeting.</p>
-      <p class=" space-m">In the BOM, you'll be able to match different variants, colours and sizes, of materials that will be used for each colourway in the product. Also, product developers will often audit the material to understand weight, stretchiness and other qualities. This information can be inputed for each material so product teams can revisit materials that were already used or rated highly.</p>
-  </div>
-      <video class="space-xs outline" width="100%" autoplay loop muted>
-        <source src="../images/calico/BOM.mp4 " type="video/mp4">
-      </video>
-    <figure>
-      <img src="../images/calico/material-library.png" alt="map of the allocated time for a general production person">
-      <figcaption class="figcaption-center space-m">Component data and library</figcaption>
-    </figure>
-  </div>
-
-  <div class="section-white">
-    <div class="content-area">
-      <h3>Learnings</h3>
-      <p class="">My biggest takeaway is to setup foundations early before scaling. Before I worked at Calico, I always thought it meant building a strong core product.</p>
-      <p class=" space-xxs">I now understand that its solving any small habits or problems that you won’t be able to solve in the future. As a company or team scales at any stage, everything scales with it. Foundations that I would try to setup are culture, the mission and role responsibilities.</p>
-      <p class="color-grey">* This is an overview of the work I've done at Calico for the product database.</p>
-    </div>
-  </div>
+<!--  <video class="space-xs outline" width="100%" autoplay loop muted>
+    <source src="../images/calico/BOM.mp4 " type="video/mp4">
+  </video>-->
 
   <div class="main">
     <footer class="footer-casestudy">
-      <div class="footer-left">
-        <span class="label"><a href="../index.html"><-- Back home</a></span>
+      <div class="nav-name">
+        <span class="label"></span>
       </div>
-      <div class="footer-right">
-        <span class="label"><a href="hellohire.html">Next project --></a></span>
+      <div class="nav-case">
+        <span class="label"><a class="purple-hover" href="../index.html"><span class="sans"><-</span> Back home</span>
       </div>
     </footer>
   </div>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
