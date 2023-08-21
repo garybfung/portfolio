@@ -852,10 +852,9 @@ exports.init = init;
 
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          useEffect(() => {
-              AOS.init();
-              AOS.refresh();
-            }, []);
+          function activateAOS() {
+            AOS.init();
+          }
         </script>
     </body>
 </html>
