@@ -173,47 +173,45 @@
                     }
                 }
         </style>
-        </head>
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          setTimeout(function () { AOS.init(); }, 2000);
-        </script>
+    </head>
 
     <body class="staticrypt-body">
-        <div id="staticrypt_loading" class="staticrypt-spinner-container">
-            <div class="staticrypt-spinner"></div>
-        </div>
+    <div id="staticrypt_loading" class="staticrypt-spinner-container">
+      <div class="staticrypt-spinner"></div>
+    </div>
 
-        <div id="staticrypt_content" class="staticrypt-content hidden">
-            <div class="staticrypt-page">
-                <div class="staticrypt-form">
-                    <div class="staticrypt-instructions">
-                        <p class="staticrypt-title">Protected Page</p>
-                        <p></p>
-                    </div>
+    <div id="staticrypt_content" class="staticrypt-content hidden">
+      <div class="staticrypt-page">
+          <div class="staticrypt-form">
+              <div class="staticrypt-instructions">
+                  <p class="staticrypt-title">Site is protected</p>
+                  <p></p>
+              </div>
 
-                    <hr class="staticrypt-hr" />
+              <hr class="staticrypt-hr">
 
-                    <form id="staticrypt-form" action="#" method="post">
-                        <input
-                            id="staticrypt-password"
-                            type="password"
-                            name="password"
-                            placeholder="Password"
-                            autofocus
-                        />
+              <form id="staticrypt-form" action="#" method="post">
+                  <input id="staticrypt-password"
+                        class="staticrypt-password"
+                         type="password"
+                         name="password"
+                         placeholder="Enter password"
+                         autofocus/>
 
-                        <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
-                            <input id="staticrypt-remember" type="checkbox" name="remember" />
-                            Remember me
-                        </label>
+                  <label id="staticrypt-remember-label" class="staticrypt-remember hidden">
+                      <input id="staticrypt-remember"
+                             type="checkbox"
+                             name="remember"
+                             checked/>
+                      Remember me
+                  </label>
 
-                        <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT" />
-                    </form>
-                </div>
-            </div>
-        </div>
+                  <input type="submit" class="staticrypt-decrypt-button" value="Enter"/>
+              </form>
+          </div>
+
+      </div>
+    </div>
 
         <script>
             // these variables will be filled when generating the file - the template format is 'variable_name'
