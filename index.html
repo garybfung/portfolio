@@ -176,6 +176,12 @@
     </head>
 
     <body class="staticrypt-body">
+      
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        setTimeout(function () { AOS.init(); }, 1000);
+      </script>
+
     <div id="staticrypt_loading" class="staticrypt-spinner-container">
       <div class="staticrypt-spinner"></div>
     </div>
@@ -848,11 +854,6 @@ exports.init = init;
                     alert(templateError);
                 }
             });
-        </script>
-
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          setTimeout(function () { AOS.init(); }, 1000);
         </script>
     </body>
 </html>
