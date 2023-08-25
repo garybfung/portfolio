@@ -83,10 +83,9 @@ video {
 
 footer {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-direction: row;
   width: 100%;
-  gap: 60px;
 }
 
 .footer-left {
@@ -1334,7 +1333,6 @@ there.
     align-items: flex-end;
     width: 100%;
     flex-direction: row;
-    gap: 0px;
   }
 
   .footer-casestudy {
